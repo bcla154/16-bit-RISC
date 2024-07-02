@@ -1,4 +1,4 @@
-# COMPSYS 701 A1 ReCOP Group 3
+# COMPSYS 701 A1 RECoP Group 3
 
 ## output.mif Generation instructions
 
