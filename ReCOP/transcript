@@ -1,0 +1,23 @@
+# do temp_simlib_comp.tmp
+# Model Technology ModelSim SE vcom 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 11:28:50 on Jun 04,2024
+# vcom -work altera -93 c:/intelfpga/18.1/quartus/eda/sim_lib/altera_syn_attributes.vhd 
+# -- Loading package STANDARD
+# -- Compiling package altera_syn_attributes
+# End time: 11:28:50 on Jun 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE vcom 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 11:28:50 on Jun 04,2024
+# vcom -work altera -93 c:/intelfpga/18.1/quartus/eda/sim_lib/altera_standard_functions.vhd 
+# -- Loading package STANDARD
+# -- Compiling package altera_standard_functions
+# ** Error: (vcom-1936) Unable to remove temporary file H:/Documents/701/COMPSYS701/ReCOP/altera/_temp/vlogwegb4e.
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Fatal: (vcom-9) Problem while writing token file "H:/Documents/701/COMPSYS701/ReCOP/altera/_temp/vcom0xi8t9".
+# 
+# The system cannot find the file specified. (GetLastError() = 2)
+# ** Error: c:/intelfpga/18.1/quartus/eda/sim_lib/altera_standard_functions.vhd(23): VHDL Compiler exiting
+# End time: 11:28:50 on Jun 04,2024, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# 1

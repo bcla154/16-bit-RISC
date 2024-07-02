@@ -1,0 +1,18 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {C:/Dev/COMPSYS701/ReCOP/Selected VHDL source design files/recop_types.vhd}
+vcom -93 -work work {C:/Dev/COMPSYS701/ReCOP/Selected VHDL source design files/prog_mem.vhd}
+vcom -93 -work work {C:/Dev/COMPSYS701/ReCOP/Selected VHDL source design files/data_mem.vhd}
+vcom -93 -work work {C:/Dev/COMPSYS701/ReCOP/Selected VHDL source design files/control_unit.vhd}
+vcom -93 -work work {C:/Dev/COMPSYS701/ReCOP/Selected VHDL source design files/various_constants.vhd}
+vcom -93 -work work {C:/Dev/COMPSYS701/ReCOP/Selected VHDL source design files/registerfile.vhd}
+vcom -93 -work work {C:/Dev/COMPSYS701/ReCOP/Selected VHDL source design files/opcodes.vhd}
+vcom -93 -work work {C:/Dev/COMPSYS701/ReCOP/Selected VHDL source design files/ALU.vhd}
+vcom -93 -work work {C:/Dev/COMPSYS701/ReCOP/Selected VHDL source design files/datapath.vhd}
+vcom -93 -work work {C:/Dev/COMPSYS701/ReCOP/RECoP.vhd}
+

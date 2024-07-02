@@ -1,0 +1,622 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/Documents/701/COMPSYS701/ReCOP/simulation/modelsim
+T_opt
+!s110 1717458527
+VlAUQ<HkMK@RgTzzZ1cg3`3
+Z1 04 12 2 work top_level_tb tb 1
+=1-7486e2073147-665e565e-19e-3038
+Z2 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z3 OE;O;10.4c;61
+T_opt1
+!s110 1717455291
+Vek7]J2kEjEQHfZ`nhB1nJ0
+04 3 2 work alu op 1
+04 12 3 work control_unit beh 1
+04 8 3 work data_mem syn 1
+04 8 3 work datapath beh 1
+04 15 12 work instruction_reg instr_decode 1
+04 20 10 work invertedsevensegment behavioral 1
+04 8 3 work prog_mem syn 1
+04 5 3 work recop cpu 1
+04 8 3 work recop_tb sim 1
+04 12 3 work registerfile syn 1
+04 9 2 work top_level tb 1
+R1
+=1-7486e2073147-665e49ba-198-3e64
+R2
+n@_opt1
+R3
+R0
+Ealu
+Z4 w1717458335
+Z5 DPx4 work 7 opcodes 0 22 G4<gIjanTZ:5k8A8hgM?63
+Z6 DPx4 work 11 recop_types 0 22 IN5MEO8NILAb^lK6PBm<[1
+Z7 DPx4 work 17 various_constants 0 22 B3]97>JD]DALSMHjj3N330
+Z8 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z9 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z10 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z11 8H:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/ALU.vhd
+Z12 FH:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/ALU.vhd
+l0
+L11
+VZ906Fl=J^VKC:>QS`[_VH0
+!s100 =?I3iVV<J7Vf]Bjo_z]OU1
+Z13 OE;C;10.4c;61
+32
+Z14 !s110 1717458340
+!i10b 1
+Z15 !s108 1717458340.000000
+Z16 !s90 -reportprogress|300|-work|work|H:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/ALU.vhd|
+Z17 !s107 H:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/ALU.vhd|
+!i113 0
+Z18 o-work work
+Z19 tExplicit 1
+Aop
+R5
+R6
+R7
+R8
+R9
+R10
+Z20 DEx4 work 3 alu 0 22 Z906Fl=J^VKC:>QS`[_VH0
+l37
+L31
+Vf]];e0GLGEYLobD29k2;R2
+!s100 nUUo[o1XX2RfR8VCJiNc]3
+R13
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Econtrol_unit
+Z21 w1717455413
+R7
+R6
+R5
+Z22 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z23 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R9
+R10
+R0
+Z24 8H:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/control_unit.vhd
+Z25 FH:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/control_unit.vhd
+l0
+L8
+V8D3zQ_o<Lmo^oX@H^4bJ<2
+!s100 ed^:LDBOA7I4JdJ]@:2Xm0
+R13
+32
+Z26 !s110 1717457524
+!i10b 1
+Z27 !s108 1717457524.000000
+Z28 !s90 -reportprogress|300|-work|work|H:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/control_unit.vhd|
+Z29 !s107 H:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/control_unit.vhd|
+!i113 0
+R18
+R19
+Abeh
+R7
+R6
+R5
+R22
+R23
+R9
+R10
+Z30 DEx4 work 12 control_unit 0 22 8D3zQ_o<Lmo^oX@H^4bJ<2
+l54
+L46
+VFQEAe==Xz9MTgn06ik;;71
+!s100 jMSMWfCM@A[Z;1d4dRkl31
+R13
+32
+R26
+!i10b 1
+R27
+R28
+R29
+!i113 0
+R18
+R19
+Edata_mem
+Z31 w1717095804
+R9
+R10
+R0
+Z32 8H:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/data_mem.vhd
+Z33 FH:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/data_mem.vhd
+l0
+L41
+Vi^m;=PQmC^oP1>J?YX6C;1
+!s100 okj?o9d>MQ]Fmobm=;_M_0
+R13
+32
+R26
+!i10b 1
+R27
+Z34 !s90 -reportprogress|300|-work|work|H:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/data_mem.vhd|
+Z35 !s107 H:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/data_mem.vhd|
+!i113 0
+R18
+R19
+Asyn
+R9
+R10
+Z36 DEx4 work 8 data_mem 0 22 i^m;=PQmC^oP1>J?YX6C;1
+l80
+L50
+V^9K8?JXC8hR17;2<`Z]jR1
+!s100 cdbGJ;gPcemV]zg>ZKTaj2
+R13
+32
+R26
+!i10b 1
+R27
+R34
+R35
+!i113 0
+R18
+R19
+Edatapath
+Z37 w1717455768
+R6
+R10
+R9
+R8
+R0
+Z38 8H:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/datapath.vhd
+Z39 FH:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/datapath.vhd
+l0
+L5
+VkeM]XccZc:Oc0XLhYhT:Z1
+!s100 aUJ3l3aZAZK7GQ]^6YZ6P1
+R13
+32
+Z40 !s110 1717457525
+!i10b 1
+Z41 !s108 1717457525.000000
+Z42 !s90 -reportprogress|300|-work|work|H:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/datapath.vhd|
+Z43 !s107 H:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/datapath.vhd|
+!i113 0
+R18
+R19
+Abeh
+Z44 DEx4 work 12 registerfile 0 22 8XN2JnNbEoUl8Z`_ehLT00
+R5
+R7
+R20
+R6
+R10
+R9
+R8
+Z45 DEx4 work 8 datapath 0 22 keM]XccZc:Oc0XLhYhT:Z1
+l53
+L38
+VBfecQ7>69kl>locIZ5Sc]0
+!s100 <jm_4jEzQ9<;RW@5o`KKz1
+R13
+32
+R40
+!i10b 1
+R41
+R42
+R43
+!i113 0
+R18
+R19
+Einstruction_reg
+R31
+R22
+R23
+R9
+R10
+R0
+Z46 8H:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/instr_reg.vhd
+Z47 FH:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/instr_reg.vhd
+l0
+L6
+V]cDhDj3>o^=T[`02R>_<>3
+!s100 IEe6eB6_^<44?mC6o>]F30
+R13
+32
+Z48 !s110 1717457526
+!i10b 1
+R41
+Z49 !s90 -reportprogress|300|-work|work|H:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/instr_reg.vhd|
+Z50 !s107 H:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/instr_reg.vhd|
+!i113 0
+R18
+R19
+Ainstr_decode
+R22
+R23
+R9
+R10
+DEx4 work 15 instruction_reg 0 22 ]cDhDj3>o^=T[`02R>_<>3
+l19
+L18
+Vc?N>9XV4<d[WFfTWKQ?9z0
+!s100 z5Kz6<H6AaKQMNhP<]Y6`1
+R13
+32
+R48
+!i10b 1
+R41
+R49
+R50
+!i113 0
+R18
+R19
+Einvertedsevensegment
+Z51 w1716528362
+R8
+R9
+R10
+R0
+Z52 8H:/Documents/701/COMPSYS701/ReCOP/InvertedSevenSegment.vhd
+Z53 FH:/Documents/701/COMPSYS701/ReCOP/InvertedSevenSegment.vhd
+l0
+L5
+V;;j03EGK_A?28C;45nUC22
+!s100 0gg13aPLOkCWSoVgb9ZDk2
+R13
+32
+R48
+!i10b 1
+Z54 !s108 1717457526.000000
+Z55 !s90 -reportprogress|300|-work|work|H:/Documents/701/COMPSYS701/ReCOP/InvertedSevenSegment.vhd|
+Z56 !s107 H:/Documents/701/COMPSYS701/ReCOP/InvertedSevenSegment.vhd|
+!i113 0
+R18
+R19
+Abehavioral
+R8
+R9
+R10
+Z57 DEx4 work 20 invertedsevensegment 0 22 ;;j03EGK_A?28C;45nUC22
+l13
+L12
+VmXY6_2BUQ5TV=o7zkTD`21
+!s100 ?bMcN0::mzT3QUbKB1o]@2
+R13
+32
+R48
+!i10b 1
+R54
+R55
+R56
+!i113 0
+R18
+R19
+Popcodes
+R6
+R9
+R10
+w1715915030
+R0
+8H:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/opcodes.vhd
+FH:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/opcodes.vhd
+l0
+L7
+VG4<gIjanTZ:5k8A8hgM?63
+!s100 2gHI;:<MD>Fz3?>eSVOg>1
+R13
+32
+R48
+!i10b 1
+R54
+!s90 -reportprogress|300|-work|work|H:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/opcodes.vhd|
+!s107 H:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/opcodes.vhd|
+!i113 0
+R18
+R19
+Eprog_mem
+Z58 w1717442432
+R9
+R10
+R0
+Z59 8H:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/prog_mem.vhd
+Z60 FH:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/prog_mem.vhd
+l0
+L8
+VXPzo0MS@Tni6Z[h?3HfTQ0
+!s100 CL[]Q36^`lLULjkMmYYUI2
+R13
+32
+Z61 !s110 1717457527
+!i10b 1
+R54
+Z62 !s90 -reportprogress|300|-work|work|H:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/prog_mem.vhd|
+Z63 !s107 H:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/prog_mem.vhd|
+!i113 0
+R18
+R19
+Asyn
+R9
+R10
+Z64 DEx4 work 8 prog_mem 0 22 XPzo0MS@Tni6Z[h?3HfTQ0
+l44
+L15
+VBS@5D]0Y8[@g<kT>Yaf@N3
+!s100 Y[czQloJ@lY3?U>KMb>kl3
+R13
+32
+R61
+!i10b 1
+R54
+R62
+R63
+!i113 0
+R18
+R19
+Erecop
+Z65 w1717458505
+R6
+R10
+R9
+R8
+R0
+Z66 8H:/Documents/701/COMPSYS701/ReCOP/RECoP.vhd
+Z67 FH:/Documents/701/COMPSYS701/ReCOP/RECoP.vhd
+l0
+L6
+V[]3Ji1E=>D?Fi4?OIXlb43
+!s100 IPSnO1_3egL0_K9MCHB7H0
+R13
+32
+Z68 !s110 1717458511
+!i10b 1
+Z69 !s108 1717458511.000000
+Z70 !s90 -reportprogress|300|-work|work|H:/Documents/701/COMPSYS701/ReCOP/RECoP.vhd|
+Z71 !s107 H:/Documents/701/COMPSYS701/ReCOP/RECoP.vhd|
+!i113 0
+R18
+R19
+Acpu
+R36
+R64
+R7
+R5
+R22
+R23
+R30
+R45
+R6
+R10
+R9
+R8
+Z72 DEx4 work 5 recop 0 22 []3Ji1E=>D?Fi4?OIXlb43
+l45
+L15
+VJ:eZj?A`Vb>nOO5kPmN^_0
+!s100 4o4fLdIUcAJ;l9];@M7a[2
+R13
+32
+R68
+!i10b 1
+R69
+R70
+R71
+!i113 0
+R18
+R19
+Erecop_tb
+Z73 !s108 1717457527.000000
+Z74 !s90 -reportprogress|300|-work|work|H:/Documents/701/COMPSYS701/ReCOP/recop_tb.vhd|
+Z75 !s107 H:/Documents/701/COMPSYS701/ReCOP/recop_tb.vhd|
+!i113 0
+R18
+R19
+R0
+Asim
+R6
+R72
+R8
+R9
+R10
+DEx4 work 8 recop_tb 0 22 Pf7CRFPUJERi_k3`d4oAh2
+l17
+L8
+VfmB4F=in8Kh7>6nD2]3>Z0
+!s100 63baVbcZf13MWYYlJIUc33
+R13
+32
+!s110 1717457515
+!i10b 1
+!s108 1717457515.000000
+R74
+R75
+!i113 0
+R18
+R19
+FH:/Documents/701/COMPSYS701/ReCOP/recop_tb.vhd
+w1717095805
+8H:/Documents/701/COMPSYS701/ReCOP/recop_tb.vhd
+Precop_types
+R9
+R10
+R31
+R0
+8H:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/recop_types.vhd
+FH:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/recop_types.vhd
+l0
+L5
+VIN5MEO8NILAb^lK6PBm<[1
+!s100 R6CUllbaKNIH93^V>@?_U3
+R13
+32
+Z76 !s110 1717457528
+!i10b 1
+R73
+!s90 -reportprogress|300|-work|work|H:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/recop_types.vhd|
+!s107 H:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/recop_types.vhd|
+!i113 0
+R18
+R19
+Eregisterfile
+R31
+R9
+R10
+R0
+Z77 8H:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/registerfile.vhd
+Z78 FH:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/registerfile.vhd
+l0
+L6
+V8XN2JnNbEoUl8Z`_ehLT00
+!s100 QbJG@4Wb=nnCd9]QkXDjn2
+R13
+32
+R76
+!i10b 1
+Z79 !s108 1717457528.000000
+Z80 !s90 -reportprogress|300|-work|work|H:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/registerfile.vhd|
+Z81 !s107 H:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/registerfile.vhd|
+!i113 0
+R18
+R19
+Asyn
+R9
+R10
+R44
+l65
+L19
+Vf]O@N?;VKYdIXGoF1Z:FB2
+!s100 n_mfbXFDNEZ??MH=oLMXR1
+R13
+32
+R76
+!i10b 1
+R79
+R80
+R81
+!i113 0
+R18
+R19
+Etop_level
+Z82 w1717456669
+R23
+R22
+R10
+R9
+R8
+R0
+Z83 8H:/Documents/701/COMPSYS701/ReCOP/top_level.vhd
+Z84 FH:/Documents/701/COMPSYS701/ReCOP/top_level.vhd
+l0
+L8
+V1H_ecYWoQf=kQFI^9=Vo]0
+!s100 Ni]0AB1lAX=T5Mel@Ld522
+R13
+32
+R76
+!i10b 1
+R79
+Z85 !s90 -reportprogress|300|-work|work|H:/Documents/701/COMPSYS701/ReCOP/top_level.vhd|
+Z86 !s107 H:/Documents/701/COMPSYS701/ReCOP/top_level.vhd|
+!i113 0
+R18
+R19
+Atb
+R6
+R72
+R57
+R23
+R22
+R10
+R9
+R8
+DEx4 work 9 top_level 0 22 1H_ecYWoQf=kQFI^9=Vo]0
+l42
+L23
+VKzl:e4d13B3Jnf;MP8]Ac0
+!s100 6]Za`j^9kYLkoCMkXHUKR0
+R13
+32
+R76
+!i10b 1
+R79
+R85
+R86
+!i113 0
+R18
+R19
+Etop_level_tb
+Z87 w1717095807
+R10
+R9
+R8
+R0
+Z88 8H:/Documents/701/COMPSYS701/ReCOP/top_level_tb.vhd
+Z89 FH:/Documents/701/COMPSYS701/ReCOP/top_level_tb.vhd
+l0
+L5
+VfaGmN]][n>aje8gcZcggB2
+!s100 UM6z;o9I5g]8J[MITO<EI1
+R13
+32
+Z90 !s110 1717457529
+!i10b 1
+R79
+Z91 !s90 -reportprogress|300|-work|work|H:/Documents/701/COMPSYS701/ReCOP/top_level_tb.vhd|
+Z92 !s107 H:/Documents/701/COMPSYS701/ReCOP/top_level_tb.vhd|
+!i113 0
+R18
+R19
+Atb
+R6
+R72
+R57
+R10
+R9
+R8
+DEx4 work 12 top_level_tb 0 22 faGmN]][n>aje8gcZcggB2
+l37
+L19
+VX`]MdiAg[XY7kMMM3U8X23
+!s100 Hn4DzcOI>Z=AGYc=^Zh491
+R13
+32
+R90
+!i10b 1
+R79
+R91
+R92
+!i113 0
+R18
+R19
+Pvarious_constants
+R6
+R9
+R10
+R31
+R0
+8H:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/various_constants.vhd
+FH:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/various_constants.vhd
+l0
+L7
+VB3]97>JD]DALSMHjj3N330
+!s100 V^4fVd3?o6>m1W8KNofk93
+R13
+32
+R90
+!i10b 1
+!s108 1717457529.000000
+!s90 -reportprogress|300|-work|work|H:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/various_constants.vhd|
+!s107 H:/Documents/701/COMPSYS701/ReCOP/Selected VHDL source design files/various_constants.vhd|
+!i113 0
+R18
+R19

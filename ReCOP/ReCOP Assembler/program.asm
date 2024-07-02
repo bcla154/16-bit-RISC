@@ -1,0 +1,6 @@
+MAIN:
+LSIP R1; Load R6 with SIP
+ADD R2 R1 #45
+NOOP
+SSOP R2; Store R3 (50) in SOP
+JMP #1

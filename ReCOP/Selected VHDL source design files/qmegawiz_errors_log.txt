@@ -1,0 +1,19 @@
+
+
+C:/Dev/COMPSYS701/ReCOP/Selected VHDL source design files/recop_pll.vhd
+
+May 03 04PM:46:22>: Error in CNX file format.
+
+Error messages are listed in file
+C:/Dev/COMPSYS701/ReCOP/Selected VHDL source design files/recop_pll.cnxerr.
+
+Can't create the custom megafunction variation file(s)
+
+C:/Dev/COMPSYS701/ReCOP/Selected VHDL source design files/pll.vhd
+
+May 03 04PM:46:24>: Error in CNX file format.
+
+Error messages are listed in file
+C:/Dev/COMPSYS701/ReCOP/Selected VHDL source design files/pll.cnxerr.
+
+Can't create the custom megafunction variation file(s)
